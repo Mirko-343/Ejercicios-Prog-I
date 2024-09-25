@@ -1,0 +1,3 @@
+import funciones
+
+funciones.resolver_hanoi
