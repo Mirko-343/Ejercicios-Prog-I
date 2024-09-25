@@ -19,6 +19,15 @@ while continuar == "si":
     lista_horas_trabajadas += [horas_trabajadas]
         
     continuar = input("Desea agregar otro respondiente? si / no: \n")
-    
+ 
+lista = input("Que lista desea cambiar? Nombres, sexos u horas trabajadas: ")
 
-funciones.corregir_valores(lista_horas_trabajadas)
+match lista:
+    case "nombres":
+        funciones.corregir_valores(lista_nombres)
+    case "sexos":
+        funciones.corregir_valores(lista_sexos)
+    case "horas trabajadas":
+        funciones.corregir_valores(lista_horas_trabajadas)
+        
+

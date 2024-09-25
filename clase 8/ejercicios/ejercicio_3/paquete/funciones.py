@@ -14,5 +14,12 @@ def corregir_valores(lista : list) -> None:
     
 
 def ordenar_lista(lista : list) -> list:
-    ''' Ordena de menor a mayor los valores de la lista que se pase por parámetro '''
+    ''' Ordena de menor a mayor los valores de la lista que se pase por parametro '''
+
+
+def calcular_cuartiles(lista : list):
+    tamaño_cuartil = len(lista) // 4
+    
+    maximos = [lista[0]] * tamaño_cuartil
+    minimos = [lista[0]] * tamaño_cuartil
     
