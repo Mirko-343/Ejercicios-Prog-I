@@ -23,6 +23,4 @@ def resolver_hanoi(discos : int):
     else:
         resolver_hanoi()
     
-
-# Como llevar registro de lo que hay en cada pila sin usar listas?   
         

@@ -164,8 +164,6 @@ def multiplicar_matrices(matriz_1 : list, matriz_2 : list) -> list:
     contador = 0
     acumulador = 0
 
-    #Usar dos variables distintas, 
-
     for i in range(len(matriz_1)):
         columna = 0
         contador = 0
