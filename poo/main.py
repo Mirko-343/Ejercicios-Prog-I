@@ -15,18 +15,18 @@ rectangulo_1 = Rectangulo(10, 5)
 area = rectangulo_1.calcular_area()
 perimetro = rectangulo_1.calcular_perimetro()
 
-print(f"Area del rectángulo: {area}")
+print(f"\nArea del rectángulo: {area}")
 print(f"Perimetro del rectángulo: {perimetro}")
 
 # Punto 3
 cuenta_1 = Calculadora(10, 5)
 
 resultado = cuenta_1.sumar
-print(resultado())
+print(f"\nEl resultado de la operación es: {resultado()}")
 
 # Punto 4
 perro = Perro("Milo", "guau guau")
-print(f"Sonido del perro: {perro.mostrar_sonido()}")
+print(f"\nSonido del perro: {perro.mostrar_sonido()}")
 
 gato = Gato("Yisus", "Miau")
 print(f"Sonido del gato: {gato.mostrar_sonido()}")
@@ -35,7 +35,7 @@ print(f"Sonido del gato: {gato.mostrar_sonido()}")
 cuenta_1 = Cuenta("Mirko", 2100)
 saldo = cuenta_1.consultar_saldo()
 
-print(f"Saldo de la cuenta: {saldo}")
+print(f"\nSaldo de la cuenta: {saldo}")
 
 cuenta_1.depositar(400)
 cuenta_1.retirar(500)
